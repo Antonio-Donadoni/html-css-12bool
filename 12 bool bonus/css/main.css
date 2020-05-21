@@ -6,8 +6,9 @@
 
 body {
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
+  font-family: 'Zilla Slab', serif;
 }
 /* VALORI DI DEBUG  */
 
@@ -21,12 +22,10 @@ body {
 }
 
 	[class*="col-"] > .container > [class*="col-"] {
+    background: rgb(255,204,199);
+    background: linear-gradient(135deg, rgba(255,204,199,1) 53%, rgba(255,167,167,1) 60%);
+    border: outset 1px white;
 
-    /* height: 85px; */
-    background-color: pink;
-    border: solid 1px white;
-    /* line-height: 85px; */
-    /* margin-top: 5px; */
 
   }
   .wrapper {
@@ -36,4 +35,41 @@ body {
 .name {
   font-size: 0.7rem;
   font-weight: normal;
+}
+
+.noble {
+  background: rgb(130,176,255);
+  background: linear-gradient(135deg, rgba(130,176,255,1) 53%, rgba(68,137,236,1) 60%);
+}
+
+.halogen {
+  background: rgb(153,239,255);
+  background: linear-gradient(135deg, rgba(153,239,255,1) 53%, rgba(90,230,231,1) 60%);
+}
+
+.non-metal {
+  background: rgb(179,144,244);
+  background: linear-gradient(135deg, rgba(179,144,244,1) 53%, rgba(138,96,209,1) 60%);;
+}
+.alkali{
+  background: rgb(255,130,130);
+  background: linear-gradient(135deg, rgba(255,130,130,1) 53%, rgba(255,53,53,1) 60%);
+}
+.alkaline-earth {
+  background: rgb(255,219,33);
+  background: linear-gradient(135deg, rgba(255,219,33,1) 50%, rgba(245,182,45,1) 60%);
+}
+
+.semi-metal {
+  background: rgb(199,210,226);
+  background: linear-gradient(135deg, rgba(199,210,226,1) 53%, rgba(170,177,187,1) 60%);
+}
+.basic-metal {
+  background: rgb(102,255,132);
+  background: linear-gradient(135deg, rgba(102,255,132,1) 53%, rgba(31,195,55,1) 60%);
+}
+
+.idro {
+  background: rgb(255,255,255);
+  background: linear-gradient(135deg, rgba(255,255,255,1) 53%, rgba(224,224,224,1) 60%);
 }
