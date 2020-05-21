@@ -6,25 +6,34 @@
 
 body {
   margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
 }
 /* VALORI DI DEBUG  */
 
 [class*="col-"] {
-  float: left;
-  height: 100px;
-  background-color: violet;
-  border: SOLID 1PX BLACK;
+  height: 50px;
+  /* background-color: violet;
+  border: SOLID 1PX BLACK; */
   text-align: center;
-  line-height: 100px;
-  padding: 0 5px;
+  /* line-height: 50px; */
+  /* padding: 0 5px; */
 }
 
-	.col-6 > .container > [class*="col-"] {
+	[class*="col-"] > .container > [class*="col-"] {
 
-    height: 85px;
+    /* height: 85px; */
     background-color: pink;
     border: solid 1px white;
-    line-height: 85px;
-    margin-top: 5px;
+    /* line-height: 85px; */
+    /* margin-top: 5px; */
 
   }
+  .wrapper {
+    padding: 3px 0;
+  }
+
+.name {
+  font-size: 0.7rem;
+  font-weight: normal;
+}
