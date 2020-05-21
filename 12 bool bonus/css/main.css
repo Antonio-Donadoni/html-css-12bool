@@ -10,26 +10,16 @@ body {
   font-weight: bold;
   font-family: 'Zilla Slab', serif;
 }
-/* VALORI DI DEBUG  */
-
-[class*="col-"] {
-  height: 50px;
-  /* background-color: violet;
-  border: SOLID 1PX BLACK; */
-  text-align: center;
-  /* line-height: 50px; */
-  /* padding: 0 5px; */
-}
-
-	[class*="col-"] > .container > [class*="col-"] {
-    background: rgb(255,204,199);
-    background: linear-gradient(135deg, rgba(255,204,199,1) 53%, rgba(255,167,167,1) 60%);
-    border: outset 1px white;
 
 
-  }
+
   .wrapper {
     padding: 3px 0;
+    height: 50px;
+    text-align: center;
+    border: outset 1px white;
+    background: rgb(255,204,199);
+    background: linear-gradient(135deg, rgba(255,204,199,1) 53%, rgba(255,167,167,1) 60%);
   }
 
 .name {
@@ -72,4 +62,13 @@ body {
 .idro {
   background: rgb(255,255,255);
   background: linear-gradient(135deg, rgba(255,255,255,1) 53%, rgba(224,224,224,1) 60%);
+}
+.legenda {
+  margin-top: 30px;
+}
+.definition {
+  padding-top: 15px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
